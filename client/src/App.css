@@ -1,0 +1,37 @@
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafdf2;
+    width: 250px;
+    height: 275px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #2c2c2c;
+}
+
+nav {
+    display: flex;
+    background-color: #2c2c2c;
+}
+
+li {
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}

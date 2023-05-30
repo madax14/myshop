@@ -14,7 +14,7 @@ app.use(cors());
 const data = [
     {
         "Key":1,
-        "Book": "Papel B",
+        "Book": "Papel",
         "Price": 25
     },
     {

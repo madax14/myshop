@@ -22,10 +22,10 @@ function CreateCard() {
 
     return (
         
-        <div>
+        <div className='cards'>
             
             {books.map((item)=>(
-                <div className="cards" key={item.Key}>
+                <div className="card" key={item.Key}>
                     <h1>{item.Book}</h1>
                     <p>{item.Price}</p>
                     <button>+</button>
