@@ -1,12 +1,12 @@
 import React from 'react';
-import Cards from './Cards';
+// import Cards from './Cards';
+import CreateCard from "./CreateCard"
 
 function Shop() {
   return (
     <div className="container">
-        <Cards
-            Price="01"
-        />
+        <h1>Shop place</h1>
+        <CreateCard/>
     </div>
   );
 }

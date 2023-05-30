@@ -5,7 +5,9 @@ import Books from './CreateCard';
 function Cards() {
     return (
         <div className='cards'>
+            <h1>Title</h1>
             <h1>Price</h1>
+
         </div>
     )
 }
