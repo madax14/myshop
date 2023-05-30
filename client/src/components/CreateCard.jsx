@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link} from "react-router-dom";
 // import Cards from './Cards';
 // import test from './test';
 
@@ -29,6 +30,7 @@ function CreateCard() {
                     <h1>{item.Book}</h1>
                     <p>{item.Price}</p>
                     <button>+</button>
+                    <button className='readMore'><Link className="moreInfo" to="/MoreInfo">Read</Link></button>
                 </div>
             ))}
 

@@ -2,14 +2,14 @@ import React from 'react';
 import Books from './CreateCard';
 // Cards content coming from Data
 
-function Cards() {
+function MoreInfo() {
     return (
         <div className='cards'>
-            <h1>Title</h1>
-            <h1>Price</h1>
+            <h1>Book info</h1>
+            <p>dadadada</p>
 
         </div>
     )
 }
 
-export default Cards;
+export default MoreInfo;
