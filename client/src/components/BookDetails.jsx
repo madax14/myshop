@@ -1,8 +1,13 @@
-import React from 'react';
-import Books from './CreateCard';
+import React, { useState  } from 'react';
+import BoCreateCard from './CreateCard';
 // Cards content coming from Data
 
-function MoreInfo() {
+
+
+
+function BookDetails() {
+
+
     return (
         <div className='cards'>
             <h1>Book info</h1>
@@ -12,4 +17,4 @@ function MoreInfo() {
     )
 }
 
-export default MoreInfo;
+export default BookDetails;
